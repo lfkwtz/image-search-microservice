@@ -1,6 +1,9 @@
 {
   "name": "image-search-microservice",
   "version": "1.0.0",
+  "engines": {
+    "node": "7.0.0"
+  },
   "scripts": {
     "start": "node app",
     "start:dev": "nodemon app"
