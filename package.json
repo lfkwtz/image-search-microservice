@@ -1,6 +1,10 @@
 {
   "name": "image-search-microservice",
   "version": "1.0.0",
+  "scripts": {
+    "start": "node app",
+    "start:dev": "nodemon app"
+  },
   "main": "app.js",
   "author": "Michael Lefkowitz",
   "license": "MIT",
