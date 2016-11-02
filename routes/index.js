@@ -5,7 +5,7 @@ const History = require('../models/history');
 const imgur = require('../services/imgur');
 
 router.get('/', (req, res) => {
-  res.send('Hello');
+  res.render('index', { host: req.get('host') });
 });
 
 router.get('/latest', (req, res) => {

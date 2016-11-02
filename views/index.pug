@@ -1,0 +1,28 @@
+html
+  head
+    title Image Search Abstraction Layer Microservice
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', type='text/css')
+  body
+    div.container-fluid
+      div.row
+        div.col-sm-offset-2.col-sm-8
+          h1 API Projects
+            br
+            small Image Search Abstraction Layer Microservice
+      div.row
+        div.col-sm-offset-2.col-sm-8
+          b User stories:
+          ul
+            li I can get the image URLs, alt text and page urls for a set of images relating to a given search string.
+            li I can paginate through the responses by adding a ?offset=2 parameter to the URL.
+            li I can get a list of the most recently submitted search strings.
+      div.row
+        div.col-sm-offset-2.col-sm-8
+          b Example usage:
+          ul
+            li
+              code #{host}/search/puppies
+            li
+              code #{host}/search/puppies?offset=2
+            li
+              code #{host}/latest

@@ -14,7 +14,9 @@
   "dependencies": {
     "express": "^4.14.0",
     "mongoose": "^4.6.5",
-    "request": "^2.76.0"
+    "pug": "^2.0.0-beta6",
+    "request": "^2.76.0",
+    "serve-favicon": "^2.3.0"
   },
   "devDependencies": {
     "dotenv": "^2.0.0"
