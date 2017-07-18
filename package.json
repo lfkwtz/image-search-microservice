@@ -2,7 +2,7 @@
   "name": "image-search-microservice",
   "version": "1.0.0",
   "engines": {
-    "node": "7.0.0"
+    "node": "7.10.1"
   },
   "scripts": {
     "start": "node app",
